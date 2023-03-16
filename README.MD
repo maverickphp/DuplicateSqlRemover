@@ -4,13 +4,16 @@ This Python code reads a SQL file, removes duplicate lines, and saves the unique
 
 <h3>Prerequisites</h3>
 Python 3.x
-Usage
-Save the input SQL file as input.sql in the same directory as the sql_duplicate_line_remover.py file.
 
-Run the Python script using the following command:
+<h3>Usage</h3>
 
-Copy code
-python sql_duplicate_line_remover.py
+1. Save the input SQL file as input.sql in the same directory as the Dplsqlrmv.py file.
+2. Run the Python script using the following command:
+
+```sh
+python Dplsqlrmv.py
+```
+
 The unique lines will be saved in a new SQL file named output.sql.
 
 How it Works
