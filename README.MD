@@ -23,30 +23,9 @@ python Dplsqlrmv.py
 4. If the line is unique, it is added to the set.
 5. Finally, the unique lines are written to the output SQL file.
 
-<h3>Example</h3>
+<h3>Limitations</h3>
 
-Suppose we have the following SQL file named input.sql:
-
-sql
-Copy code
-SELECT *
-FROM employees
-WHERE salary > 50000;
-SELECT *
-FROM employees
-WHERE salary > 50000;
-SELECT *
-FROM departments;
-Running the script using the command python sql_duplicate_line_remover.py will produce a new SQL file named output.sql with the following contents:
-
-sql
-Copy code
-SELECT *
-FROM employees
-WHERE salary > 50000;
-SELECT *
-FROM departments;
-Limitations
 This script only removes exact duplicate lines. If two lines have the same meaning but different formatting or whitespace, they will be considered different and both will be included in the output file.
-License
+
+<h3>License</h3>
 This code is licensed under the MIT License.
