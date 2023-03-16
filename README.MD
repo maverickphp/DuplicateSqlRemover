@@ -30,4 +30,4 @@ This script only removes exact duplicate lines. If two lines have the same meani
 
 <h3>License</h3>
 
-This code is licensed under the MIT License.
+This code is licensed under the MIT License..
