@@ -1,7 +1,8 @@
-###SQL Duplicate Line Remover
+# SQL Duplicate Line Remover
+
 This Python code reads a SQL file, removes duplicate lines, and saves the unique lines to a new SQL file.
 
-Prerequisites
+<h3>Prerequisites</h3>
 Python 3.x
 Usage
 Save the input SQL file as input.sql in the same directory as the sql_duplicate_line_remover.py file.
