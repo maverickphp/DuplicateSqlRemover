@@ -14,7 +14,7 @@ Python 3.x
 python Dplsqlrmv.py
 ```
 
-The unique lines will be saved in a new SQL file named output.sql.
+3. The unique lines will be saved in a new SQL file named output.sql.
 
 How it Works
 The script reads the lines of the input SQL file into a list.
