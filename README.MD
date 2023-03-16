@@ -17,6 +17,7 @@ python Dplsqlrmv.py
 3. The unique lines will be saved in a new SQL file named output.sql.
 
 <h3>How it Works:</h3>
+
 1. The script reads the lines of the input SQL file into a list.
 2. An empty set is created to store unique lines.
 3. The script loops over each line in the list, strips any leading/trailing whitespace from the line, and checks if the line is not empty and not already in the set.
@@ -28,4 +29,5 @@ python Dplsqlrmv.py
 This script only removes exact duplicate lines. If two lines have the same meaning but different formatting or whitespace, they will be considered different and both will be included in the output file.
 
 <h3>License</h3>
+
 This code is licensed under the MIT License.
