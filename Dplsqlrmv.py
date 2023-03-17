@@ -1,5 +1,5 @@
 # Open the input SQL file for reading
-with open('input.sql', 'r') as f:
+with open('/path/to/input.sql', 'r') as f:
     # Read the lines into a list
     lines = f.readlines()
 
